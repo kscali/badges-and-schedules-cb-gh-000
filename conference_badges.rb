@@ -36,5 +36,5 @@ def printer(attendees)
     final_string += (assignment + "\n")
   end
   
-  puts final_string.first
+  puts final_string[badge[0]].chomp
  end 
