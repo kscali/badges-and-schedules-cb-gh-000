@@ -23,18 +23,3 @@ def assign_rooms(array)
   assigned
 end  
 
-def printer(attendees)
-  final_string = ""
-  badges = batch_badge_creator(attendees)
-  
-  badges.each do |badge|
-    final_string += (badge + "\n")
-  end
-  
-  room_assignments = assign_rooms(attendees)
-  room_assignments.each do |assignment|
-    final_string += (assignment + "\n")
-  end
-  
-  puts final_string
- end 
