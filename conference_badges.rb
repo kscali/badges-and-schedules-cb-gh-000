@@ -8,7 +8,7 @@ end
 def batch_badge_creator(array)
   greeting=""
   array.each {|name| greeting << badge_maker(name)}
-  greeting
+  greeting.chomp
 end 
 
 def assign_rooms(array)
