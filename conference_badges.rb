@@ -36,5 +36,5 @@ def printer(attendees)
     final_string += (assignment + "\n")
   end
   
-  puts final_string[0]
+  puts final_string[0:26]
  end 
