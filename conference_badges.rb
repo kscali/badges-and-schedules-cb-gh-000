@@ -7,8 +7,10 @@ end
 
 def batch_badge_creator(array)
   greeting=""
-  array.each {|name| greeting << badge_maker(name)}
-  greeting.chomp
+  array.each do |name| 
+    greeting << badge_maker(name)
+  end
+  greeting
 end 
 
 def assign_rooms(array)
