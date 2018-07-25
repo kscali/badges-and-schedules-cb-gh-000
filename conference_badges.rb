@@ -36,8 +36,8 @@ def printer(attendee)
     rooms += 1
   end 
   
-  greeting.chomp
-  assigned.chomp
+  greeting
+  assigned
   
 end  
   
