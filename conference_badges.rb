@@ -36,5 +36,5 @@ def printer(attendees)
     final_string += (assignment + "\n")
   end
   
-  final_string.strip()
+  final_string.strip
  end 
