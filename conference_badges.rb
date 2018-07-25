@@ -24,7 +24,11 @@ def assign_rooms(array)
 end  
 
 def printer(attendee)
-  
+  greeting=[]
+  attendee.each do |name| 
+    greeting.push("Hello, my name is #{name}.")
+  end
+  greeting
   
   
 end  
