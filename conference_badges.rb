@@ -28,7 +28,7 @@ def printer(attendee)
   attendee.each do |name| 
     greeting.push("Hello, my name is #{name}.")
   end
-  greeting
+  puts greeting
   
   assigned=[]
   rooms = 1 
@@ -36,7 +36,7 @@ def printer(attendee)
     assigned.push("Hello, #{speaker}! You'll be assigned to room #{rooms}!")
     rooms += 1
   end 
-  assigned
+  puts assigned
   
 end  
   
