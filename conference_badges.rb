@@ -15,3 +15,5 @@ def assign_rooms(array)
     puts "Hello, #{speaker}! You'll be assigned to room #{rooms}!"
     rooms += 1
 end  
+
+def printer()
