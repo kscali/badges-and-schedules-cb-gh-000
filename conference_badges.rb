@@ -23,7 +23,7 @@ def assign_rooms(array)
   assigned
 end  
 
-def printer(attendees):
+def printer(attendees)
   final_string = ""
   badges = batch_badge_creator(attendees)
   
