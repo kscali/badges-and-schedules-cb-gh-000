@@ -31,5 +31,7 @@ def printer(attendee)
   greeting
   
   
+  
+  
 end  
   
