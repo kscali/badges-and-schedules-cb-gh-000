@@ -26,10 +26,15 @@ end
 def printer(attendees):
   final_string = ""
   badges = batch_badge_creator(attendees)
-  for badge in badges:
-    final_string += (badge + "\n")
-  room_assignments = assign_rooms(attendees)
-  for assignment in room_assignments:
-    final_string += (assignment + "\n")
-  return final_string.strip()
   
+  badges.each do |badge|
+    final_string += (badge + "\n")
+  end
+  
+  room_assignments = assign_rooms(attendees)
+  room_assignments.each do |assignment|
+    final_string += (assignment + "\n")
+  end
+  
+  final_string.strip()
+ end 
