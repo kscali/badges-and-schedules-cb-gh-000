@@ -23,21 +23,5 @@ def assign_rooms(array)
   assigned
 end  
 
-def printer(attendee)
-  greeting=[]
-  attendee.each do |name| 
-    greeting.push("Hello, my name is #{name}.")
-  end
-  
-  assigned=[]
-  rooms = 1 
-  attendee.each do |speaker|
-    assigned.push("Hello, #{speaker}! You'll be assigned to room #{rooms}!")
-    rooms += 1
-  end 
-  
-  greeting
-  assigned
-  
-end  
+
   
