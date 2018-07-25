@@ -14,6 +14,7 @@ def assign_rooms(array)
   array.each do |speaker|
     puts "Hello, #{speaker}! You'll be assigned to room #{rooms}!"
     rooms += 1
+  end  
 end  
 
 def printer(batch_badge_creator, assign_rooms)
