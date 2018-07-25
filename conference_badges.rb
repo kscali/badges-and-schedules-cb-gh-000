@@ -25,7 +25,7 @@ end
 
 def printer(attendee)
   name = []
-  name.push(badge_maker(attendee))
+  name.push(attendee)
   puts name
   
   room = []
