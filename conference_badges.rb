@@ -23,5 +23,13 @@ def assign_rooms(array)
   assigned
 end  
 
-
+def printer(attendees):
+  final_string = ""
+  badges = batch_badge_creator(attendees)
+  for badge in badges:
+    final_string += (badge + "\n")
+  room_assignments = assign_rooms(attendees)
+  for assignment in room_assignments:
+    final_string += (assignment + "\n")
+  return final_string.strip()
   
