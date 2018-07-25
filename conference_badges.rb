@@ -28,8 +28,5 @@ def printer(attendee)
   name.push(attendee)
   puts name
   
-  room = []
-  room.push(assign_rooms(attendee))
-  puts room
 end  
   
