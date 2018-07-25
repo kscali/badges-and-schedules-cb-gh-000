@@ -25,7 +25,7 @@ end
 
 def printer(attendee)
   name = []
-  attendee.each {|person| name.push(person)}
+  attendee.each {|person| name += "Hello, my name is #{person}."}
   puts name
   
 end  
