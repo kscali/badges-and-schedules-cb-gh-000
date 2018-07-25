@@ -6,13 +6,13 @@ end
 
 
 def batch_badge_creator(array)
-  greeting = " "
+  greeting = ""
   array.each {|name| greeting << ("Hello, my name is #{name}.")}
   greeting
 end 
 
 def assign_rooms(array)
-  your_room = " "
+  your_room = ""
   rooms = 1 
   array.each do |speaker|
     your_room << ("Hello, #{speaker}! You'll be assigned to room #{rooms}!")
